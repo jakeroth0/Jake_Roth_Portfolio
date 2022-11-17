@@ -191,6 +191,15 @@ h4 {
     text-align: right;
 }
 
+a h4, a h3 {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
 .project-one-shelf {
     display:flex;
     justify-content: center;
@@ -202,6 +211,14 @@ h4 {
     flex-direction: column;
     justify-content: start;
     padding:0px 40px 0px 0;
+}
+
+.project-one-shelf:hover {
+    opacity: 0.6;
+    transition: opacity .01s ease-in-out;
+    -moz-transition: opacity .01s ease-in-out;
+    -webkit-transition: opacity .01s ease-in-out;
+    color: #E79B56;
 }
 
 .sub-shelf {
