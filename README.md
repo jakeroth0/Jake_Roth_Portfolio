@@ -17,4 +17,4 @@ N/A
 
 ## Screen Shot
 
-![Screen Shot](https://github.com/jakeroth0/Jake_Roth_Portfolio/blob/main/assets/images/portfolioScreenShot.png
+![Screen Shot](https://github.com/jakeroth0/Jake_Roth_Portfolio/blob/main/assets/images/portfolioScreenShot.png)
