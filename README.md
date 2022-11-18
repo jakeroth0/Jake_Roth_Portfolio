@@ -1,4 +1,4 @@
-# Jake Roth Portfolio
+# Jake Roth's Portfolio
 
 ## Description
 In this weeks challenge, I was tasked with creating a portfolio from scratch. I applied the core skills that I've recently learned: flexbox, media queries, and CSS variables.
