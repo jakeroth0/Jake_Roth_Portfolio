@@ -16,6 +16,7 @@ import noteTakerThumbnail from './assets/noteTakerThumbnail.webp'
 import noteTakerWebm from './assets/noteTaker.webm'
 import employeeManagerThumbnail from './assets/employeeManagerThumbnail.webp'
 import employeeManagerWebm from './assets/employeeManager.webm'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -58,7 +59,7 @@ function App() {
         repo='https://github.com/jakeroth0/notesApp'
         >NOTE TAKER</Project>
         </Work>
-        
+        <Footer></Footer>
       </ThemeProvider>
 
   </div>

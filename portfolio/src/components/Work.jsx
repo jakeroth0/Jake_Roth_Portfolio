@@ -7,7 +7,7 @@ function Work({ children }) {
     return(
         <div className={`p-8 flex flex-col justify-center ${darkMode ? 'graph' : 'bg-white'} `}>
 
-            <h3 className={` text-4xl text-center ${darkMode ? 'text-white' : 'text-black'}`}>WORK</h3>
+            <h3 id='projects' className={` text-4xl text-center ${darkMode ? 'text-white' : 'text-black'}`}>WORK</h3>
             <div className='flex flex-col'>
                 {children}
             </div>
