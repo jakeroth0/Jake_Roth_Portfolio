@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toggle__dot {
+    top: 0.15rem;
+    left: 0.15rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input:checked ~ .toggle__dot {
+    transform: translateX(80%);
+    background-color: #687980;
+  }
+  
