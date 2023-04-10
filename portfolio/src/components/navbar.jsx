@@ -20,7 +20,7 @@ function Navbar(props) {
           <div
             className={`fixed top-0 right-0 h-screen w-52 p-7 z-20 transition-transform duration-300 flex flex-col ${
               open ? 'transform-none' : 'translate-x-full'
-            } ${darkMode ? 'bg-[#1F2235]' : 'bg-[#E79B56] '}`}
+            } ${darkMode ? 'bg-[#1F2235]' : 'bg-[#E79B56] '} md:w-[280px]`}
           >
             <button
               onClick={setClose}
@@ -30,7 +30,7 @@ function Navbar(props) {
             </button>
     
             {/* Add your menu items */}
-            <ul className='justify-start'>
+            <ul className='justify-start md:text-xl'>
                     <li className='flex p-1 hover:opacity-70'><PersonIcon/><a className='ml-1 text-white' href="#aboutMe" onClick={setClose}>ABOUT ME</a></li>
                     <li className='flex p-1 hover:opacity-70'><ProjectIcon/><a className='ml-1 text-white' href="#projects"  onClick={setClose}>PROJECTS</a></li>
                     <li className='flex p-1 hover:opacity-70'><MailIcon/><a className='ml-1 text-white' href="mailto:jakeroth0@gmail.com" target="blank" rel="noopener noreferrer">EMAIL</a></li>
@@ -70,14 +70,14 @@ function Navbar(props) {
       );
 
     return (
-      <nav className={`items-center p-5 ${darkMode ? 'graph' : 'bg-white'} `}>
+      <nav className={`items-center p-5 ${darkMode ? 'graph' : 'bg-white'}  `}>
         <ul className=" max-w-full max-h-full flex justify-between xl:mx-4 "> 
-            <a className= {`text-xl flex items-center ${darkMode ? 'text-white' : 'text-black '} `}>Jake Roth</a>
+            <a className= {`text-xl flex items-center ${darkMode ? 'text-white' : 'text-black '} md:text-3xl `}>Jake Roth</a>
             <div className='xl:hidden'>
                 <button
                 onClick={() => setMenuOpen(!menuOpen)}
                 className={`focus:outline-none focus:ring focus:ring-offset-2 ${darkMode ? 'text-[#5D6582]' : 'text-[#E79B56]'} `}>
-                <Burger />
+                <Burger className="h-auto md:w-10"/>
             </button>
             <Scrim open={menuOpen} setClose={() => setMenuOpen(false)} />
             <SlideInMenu open={menuOpen} setClose={() => setMenuOpen(false)} />

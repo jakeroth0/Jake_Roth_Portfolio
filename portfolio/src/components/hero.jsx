@@ -18,8 +18,8 @@ function Hero() {
   }, [currentWordIndex, words]);
 
   return (
-    <div className={`flex justify-center items-center h-44 pb-8 ${darkMode ? 'graph' : 'bg-white'}`}>
-      <h1 className={`text-4xl flex flex-col ${darkMode ? 'text-white' : 'text-black'}`}>
+    <div className={`flex justify-center items-center h-44 pb-8 ${darkMode ? 'graph' : 'bg-white'} md:h-auto md:pb-16`}>
+      <h1 className={`text-5xl flex flex-col ${darkMode ? 'text-white' : 'text-black'} md:text-8xl`}>
         LET'S MAKE
         <br />
         SOMETHING

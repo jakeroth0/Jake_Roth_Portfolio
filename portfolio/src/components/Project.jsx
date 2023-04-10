@@ -7,11 +7,11 @@ function Project(props) {
     return(
         <div className={`p-4 flex flex-col items-center justify-center`}>
 
-            <p className={` text-2xl mb-1 ${darkMode ? 'text-white' : 'text-black'}`}>{props.children}</p>
+            <p className={` text-2xl mb-1 ${darkMode ? 'text-white' : 'text-black'} md:text-3xl`}>{props.children}</p>
 
             <div className='flex mb-2'>
-                <a href={props.live} target="_blank" rel="noopener noreferrer" className={`mx-2 text-sm ${darkMode ? 'text-white hover:text-[#52A9FD]' : 'text-black hover:text-[#E79B56]'}`}>LIVE</a>
-                <a href={props.repo} target="_blank" rel="noopener noreferrer" className={`mx-2 text-sm ${darkMode ? 'text-white hover:text-[#52A9FD]' : 'text-black hover:text-[#E79B56]'}`}>REPO</a>
+                <a href={props.live} target="_blank" rel="noopener noreferrer" className={`mx-2 text-sm ${darkMode ? 'text-white hover:text-[#52A9FD]' : 'text-black hover:text-[#E79B56]'} md:text-xl md:mx-7`}>LIVE</a>
+                <a href={props.repo} target="_blank" rel="noopener noreferrer" className={`mx-2 text-sm ${darkMode ? 'text-white hover:text-[#52A9FD]' : 'text-black hover:text-[#E79B56]'} md:text-xl md:mx-7`}>REPO</a>
             </div>
 
             <a className='relative inline-block' target="_blank" rel="noopener noreferrer" href={props.live}>
