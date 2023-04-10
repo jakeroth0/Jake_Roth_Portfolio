@@ -8,7 +8,7 @@ function AboutMe() {
     return(
         <div className={`flex justify-center p-8 ${darkMode ? 'bg-[#131427]' : 'bg-[#E79B56] '} `}>
                 <div className='flex flex-col items-center'>
-                     <h2 className={`text-white text-2xl mb-6`}>ABOUT ME</h2>
+                     <h2 id='aboutMe' className={`text-white text-2xl mb-6`}>ABOUT ME</h2>
                     <div className='relative inline-block'>
                      <img className=' w-56 hover:opacity-0' src={profileImage} alt="Profile Picture" />
                         <img className=' w-56 w absolute top-0 opacity-0 hover:opacity-100' src={cameraImage} alt="" />

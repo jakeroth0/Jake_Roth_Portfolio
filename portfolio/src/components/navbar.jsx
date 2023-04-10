@@ -8,6 +8,7 @@ import MailIcon from '../icons/mailIcon';
 import LinkedinIcon from '../icons/linkedinIcon';
 import InstagramIcon from '../icons/instagramIcon';
 import XIcon from '../icons/xIcon';
+import GithubIcon from '../icons/githubIcon';
 
 function Navbar(props) {
 
@@ -30,11 +31,12 @@ function Navbar(props) {
     
             {/* Add your menu items */}
             <ul className='justify-start'>
-                    <li className='flex p-1 hover:opacity-70'><PersonIcon/><a className='ml-1 text-white' href="#">ABOUT ME</a></li>
-                    <li className='flex p-1 hover:opacity-70'><ProjectIcon/><a className='ml-1 text-white' href="#">PROJECTS</a></li>
-                    <li className='flex p-1 hover:opacity-70'><MailIcon/><a className='ml-1 text-white' href="#">EMAIL</a></li>
-                    <li className='flex p-1 hover:opacity-70'><LinkedinIcon/><a className='ml-1 text-white' href="#">LINKEDIN</a></li>
-                    <li className='flex p-1 hover:opacity-70'><InstagramIcon/><a className='ml-1 text-white' href="#">INSTAGRAM</a></li>
+                    <li className='flex p-1 hover:opacity-70'><PersonIcon/><a className='ml-1 text-white' href="#aboutMe" onClick={setClose}>ABOUT ME</a></li>
+                    <li className='flex p-1 hover:opacity-70'><ProjectIcon/><a className='ml-1 text-white' href="#projects"  onClick={setClose}>PROJECTS</a></li>
+                    <li className='flex p-1 hover:opacity-70'><MailIcon/><a className='ml-1 text-white' href="mailto:jakeroth0@gmail.com" target="blank" rel="noopener noreferrer">EMAIL</a></li>
+                    <li className='flex p-1 hover:opacity-70'><LinkedinIcon/><a className='ml-1 text-white' href="https://www.linkedin.com/in/jakeroth0/" target="blank" rel="noopener noreferrer">LINKEDIN</a></li>
+                    <li className='flex p-1 hover:opacity-70'><GithubIcon/><a className='ml-1 text-white' href="https://github.com/jakeroth0" target="blank" rel="noopener noreferrer">GITHUB</a></li>
+                    <li className='flex p-1 hover:opacity-70'><InstagramIcon/><a className='ml-1 text-white' href="https://www.instagram.com/akahusky/" target="blank" rel="noopener noreferrer">INSTAGRAM</a></li>
                     <label
                         htmlFor="darkModeToggle"
                         className="mt-auto flex items-center cursor-pointer"
