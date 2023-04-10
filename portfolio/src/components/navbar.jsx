@@ -68,7 +68,7 @@ function Navbar(props) {
       );
 
     return (
-      <nav className={`items-center p-5 ${darkMode ? 'bg-[#131427]' : 'bg-white'} `}>
+      <nav className={`items-center p-5 ${darkMode ? 'graph' : 'bg-white'} `}>
         <ul className=" max-w-full max-h-full flex justify-between xl:mx-4 "> 
             <a className= {`text-xl flex items-center ${darkMode ? 'text-white' : 'text-black '} `}>Jake Roth</a>
             <div className='xl:hidden'>
