@@ -1,5 +1,3 @@
-import { PromiseProvider } from "mongoose";
-import { useState } from 'react';
 import { ThemeProvider } from "./components/ThemeContext";
 import Navbar from './components/navbar'
 import Hero from './components/hero'
