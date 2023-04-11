@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import ThemeContext from './ThemeContext';
-import profileImage from '../assets/portraitV2.jpg'
-import cameraImage from '../assets/cameraPortrait.jpg'
+import profileImage from '../assets/portrait.webp'
+import cameraImage from '../assets/cameraPortrait.webp'
 
 function AboutMe() {
     const { darkMode } = useContext(ThemeContext);
