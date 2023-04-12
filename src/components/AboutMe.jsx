@@ -8,7 +8,7 @@ function AboutMe() {
     return(
         <div className={`flex justify-center p-8 ${darkMode ? 'bg-[#131427]' : 'bg-[#E79B56] '} xl:h-[400px] `}>
             <div className='flex flex-col items-center xl:flex-row'>
-                <div className='md:flex md:flex-row-reverse md:items-center xl:flex-col xl:mr-16'>
+                <div className='flex flex-col items-center justify-center mx-0 md:flex md:flex-row-reverse md:items-center xl:flex-col xl:mr-16'>
                  <h2 id='aboutMe' className={`text-white text-4xl mb-6 md:ml-8 xl:ml-0`}>ABOUT ME
                  </h2>
                 <div className='relative inline-block'>
