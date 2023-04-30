@@ -14,6 +14,8 @@ import noteTakerThumbnail from './assets/noteTakerThumbnail.webp'
 import noteTakerWebm from './assets/noteTaker.webm'
 import employeeManagerThumbnail from './assets/employeeManagerThumbnail.webp'
 import employeeManagerWebm from './assets/employeeManager.webm'
+import r4pThumbnail from './assets/r4pThumbnail.webp'
+import r4p from './assets/r4p.webm'
 import Footer from './components/Footer'
 
 
@@ -32,6 +34,18 @@ function App() {
         styleHero3='xl:justify-end xl:shrink'
         styleHero4='xl:mr-0'
         styleHero5='xl:grow'
+        live='https://powerful-shelf-12513.herokuapp.com/'
+        thumbnail={r4pThumbnail}
+        webM={r4p}
+        repo='https://github.com/rjclemmer/Robbie4President'
+        >ROBBIE 4 PRES</Project>
+        <Project 
+        style1='xl:items-end xl:w-1/2 xl:mt-4'
+        style2=''
+        style3='xl:justify-end'
+        style4='xl:mx-0'
+        style5=''
+        style6=''
         live='https://sleepy-citadel-09924.herokuapp.com/'
         thumbnail={techPailThumbnail}
         webM={techPailWebm}
